@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XRoute", "XRoute\XRoute.csproj", "{9FFA3F69-C2E6-4CD0-BD13-99D77CD9F671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FFA3F69-C2E6-4CD0-BD13-99D77CD9F671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFA3F69-C2E6-4CD0-BD13-99D77CD9F671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFA3F69-C2E6-4CD0-BD13-99D77CD9F671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFA3F69-C2E6-4CD0-BD13-99D77CD9F671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD91F8B0-8213-4C6B-90E0-4B5AA3DF5E69}
+	EndGlobalSection
+EndGlobal
