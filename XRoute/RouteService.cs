@@ -21,7 +21,7 @@ namespace XRoute
             {
                 try
                 {
-                    await m_UploadService.StoreAsync(file, destinationSettings);
+                    await m_UploadService.StoreAsync(file, destinationSettings, routeSettings.AeTitle);
                     ++successCount;
                 }
                 catch (Exception ex)
