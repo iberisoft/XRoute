@@ -10,7 +10,9 @@ namespace XRoute
     class DicomStoreService : DicomService, IDicomServiceProvider, IDicomCEchoProvider, IDicomCStoreProvider
     {
         public DicomStoreService(INetworkStream stream, Encoding fallbackEncoding, Logger log)
-            : base(stream, fallbackEncoding, log) { }
+            : base(stream, fallbackEncoding, log)
+        {
+        }
 
         static readonly DicomTransferSyntax[] m_TransferSyntaxes =
         {
